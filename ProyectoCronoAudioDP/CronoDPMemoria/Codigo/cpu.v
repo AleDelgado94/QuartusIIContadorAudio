@@ -1,0 +1,77 @@
+
+module cpu(input wire clk, reset, input wire [7:0] inCPU1, inCPU2, inCPU3, inCPU4, output wire [7:0] outCPU1, outCPU2, outCPU3, outCPU4, output wire [7:0] lout1, lout2, lout3, 
+/////////////////////////////////////////////
+                input   CLOCK_27,       //  27 MHz
+                ////////////////////////  I2C   ////////////////////////////////
+                inout       I2C_SDAT,       //  I2C Data
+                output      I2C_SCLK,       //  I2C Clock
+                ////////////////////  Audio CODEC   ////////////////////////////
+                output      AUD_DACLRCK,      //  Audio CODEC DAC LR Clock
+                output      AUD_DACDAT,       //  Audio CODEC DAC Data
+                inout       AUD_BCLK,       //  Audio CODEC Bit-Stream Clock
+                output      AUD_XCK);       //  Audio CODEC Chip Clock););
+
+wire we3, s_inc, s_inm, z, s_in, s_out, s_subrutina, s_ra, s_rel, out_in;
+wire [5:0] opcode;
+wire [2:0] op;
+wire [7:0] l1, l2, l3;
+//wire [7:0] lout1, lout2, lout3;
+wire [7:0] in1negada, in2negada, in3negada, in4negada;
+
+wire clk_sec;
+
+
+wire AUD_CTRL_CLK;
+wire VGA_CTRL_CLK;
+wire AUD_ADCLRCK;
+wire [51:0] sonido;
+wire s_enable;
+wire cont;
+  
+
+assign	I2C_SDAT	=	1'bz;
+assign	AUD_ADCLRCK	=	AUD_DACLRCK;
+assign	AUD_XCK		=	AUD_CTRL_CLK;
+
+
+uc uc0(clk, reset, z, opcode, s_inc, s_inm, we3, s_in, s_out, s_subrutina, s_ra, s_rel, out_in, op);
+microc microc0(clk, reset, s_inc, s_inm, we3, s_subrutina, s_ra, s_rel, op, z, opcode, in1negada, in2negada, in3negada, in4negada, outCPU1, outCPU2, outCPU3, outCPU4, s_in, s_out, out_in);
+BinaryTo7seg binto7seg(outCPU1, l1, l2, l3);
+tiempos SEG(clk, reset, in3negada[0], cont, clk_sec);
+sound SOUND(outCPU1, s_enable, sonido);
+sound_continuado s_cont(reset, outCPU1, cont);
+
+
+//MODULO AUDIO
+
+VGA_Audio_PLL sonido1(.inclk0(CLOCK_27),
+                          .c0(VGA_CTRL_CLK),
+                          .c1(AUD_CTRL_CLK));
+
+I2C_AV_Config sonido2 (.iCLK(clk),
+                   .iRST_N(s_enable),
+                   .I2C_SCLK(I2C_SCLK),
+                   .I2C_SDAT(I2C_SDAT) );
+
+adio_codec   sonido3 (.oAUD_BCK(AUD_BCLK),
+                  .oAUD_DATA(AUD_DACDAT),
+                  .oAUD_LRCK(AUD_DACLRCK),
+                  .iCLK_18_4(AUD_CTRL_CLK),
+                  .iRate(sonido),
+                  .iRST_N(s_enable) );
+
+//ASIGNACIÓN DE ENTRADAS
+
+assign lout1 = ~l1;
+assign lout2 = ~l2;
+assign lout3 = ~l3;
+
+assign s_enable = clk_sec;
+assign in2negada[0] = ~inCPU2[0]; //DESPUES NEGAR PARA LA PLACA ~
+assign in2negada[7:1] = 7'b0;
+assign in3negada[0] = inCPU3[0]; 
+assign in3negada[7:1] = 7'b0;
+assign in4negada[0] = clk_sec;
+assign in4negada[7:1] = 7'b0;
+
+endmodule

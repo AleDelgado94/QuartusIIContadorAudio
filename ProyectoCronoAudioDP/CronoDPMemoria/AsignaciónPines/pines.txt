@@ -1,0 +1,24 @@
+Asignación de pines Cyclone II - EP2C20F484C7
+
+clk : CLOCK_50 -> PIN_L1
+reset : SW0 -> PIN_L22
+CLOCK_27 -> PIN_E12
+
+SUMAR 5 : KEY 3 -> PIN_T21
+INICIO_CRONO : SW9 -> PIN_L2
+RESET : SW0 -> PIN_L22
+
+Pimes Salida Audio
+
+AUD_BCLK -> PIN_A4
+AUD_DACDAT -> PIN_B5
+AUD_DACLRCK -> PIN_A5
+AUD_XCL -> PIN_B4
+I2C_SCLK -> PIN_E12
+I2C_SDAT -> PIN_B3
+
+Pines 7-segmentos
+
+lout1[7:0] - HEX2 (Centenas)
+lout2[7:0] - HEX1 (Decenas)
+lout3[7:0] - HEX0 (Unidades)

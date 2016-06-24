@@ -1,0 +1,451 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Ale Delgado\Desktop\CronoDPAudio\simulation\modelsim
+vadd3
+I_S];Lj@gn:D6PAg[F<[b11
+V5aO>J7:`MV0RCF^Wf?ef=2
+Z1 dC:\Users\Ale Delgado\Desktop\CronoDPAudio\simulation\modelsim
+Z2 w1461584616
+Z3 8C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/7segmentos.v
+Z4 FC:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/7segmentos.v
+L0 2
+Z5 OV;L;10.1b;51
+r1
+31
+Z6 !s108 1463837418.580000
+Z7 !s107 C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/7segmentos.v|
+Z8 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo|C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/7segmentos.v|
+Z9 o-vlog01compat -work work -O0
+Z10 !s92 -vlog01compat -work work {+incdir+C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo} -O0
+!i10b 1
+!s100 hk=VjD[]ALJM7JPUOHERD2
+!s85 0
+!s101 -O0
+valu
+I0Y]:>8b2M@ii^^07HI:=N1
+VenXLGAfUjSC^PoHBVA9DZ2
+R1
+w1461098659
+8C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/alu.v
+FC:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/alu.v
+L0 1
+R5
+r1
+31
+R9
+R10
+!i10b 1
+!s100 NT;lQnL[^8M64Cm?YO;kE3
+!s85 0
+!s108 1463837418.307000
+!s107 C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo|C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/alu.v|
+!s101 -O0
+vBCDto7seg
+I6EQ;2T]zKVUcWmB=FVg;T3
+VS=6XjOAENZ5j_ZVbYfCW;3
+R1
+R2
+R3
+R4
+L0 76
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+n@b@c@dto7seg
+!i10b 1
+!s100 1nXDGV8BkFdzZ<[GCK5`e3
+!s85 0
+!s101 -O0
+vBinaryTo7seg
+Ig9S:6jT6hZabS7>f0Of]P1
+VI:MB<Oc@m?C>1aV?dK?GR1
+R1
+R2
+R3
+R4
+L0 93
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+n@binary@to7seg
+!i10b 1
+!s100 h_[]SAlR@fGS?FFo1nJ7D1
+!s85 0
+!s101 -O0
+vBinaryToBCD
+Id8dXZn7OlTNZhXCgAm0`@1
+V9j`CT;MFIiCc:J8Ve812:2
+R1
+R2
+R3
+R4
+L0 21
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+n@binary@to@b@c@d
+!i10b 1
+!s100 YUD]a@W2=nWJJR_jlUJzJ1
+!s85 0
+!s101 -O0
+vcpu
+I]WMbJXGFe8`OfJoA4JOW40
+VP[ID5Yj0RCW5o`Qh4M?9U2
+R1
+w1463837356
+8C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/cpu.v
+FC:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/cpu.v
+L0 2
+R5
+r1
+31
+R9
+R10
+!i10b 1
+!s100 >17:2La]aV8cYcJKQ37W62
+!s85 0
+!s108 1463837416.676000
+!s107 C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/cpu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo|C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/cpu.v|
+!s101 -O0
+vdeco2a4
+ITH98H8RCL3>5<jY@C7ND[3
+VAlY63;`?L[1G94:V^LUgG3
+R1
+Z11 w1460555566
+Z12 8C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/componentes.v
+Z13 FC:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/componentes.v
+L0 62
+R5
+r1
+31
+Z14 !s108 1463837416.866000
+Z15 !s107 C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/componentes.v|
+Z16 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo|C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/componentes.v|
+R9
+R10
+!i10b 1
+!s100 eM2?NRE5g3RON26mi2L`S2
+!s85 0
+!s101 -O0
+vEntrada
+I0>Y1P9AN6ZXPkPH8EAREE1
+VM`_Ml]=ZUQbF[LAEbn3_H2
+R1
+Z17 w1460979534
+Z18 8C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/entrada_salida.v
+Z19 FC:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/entrada_salida.v
+L0 3
+R5
+r1
+31
+Z20 !s108 1463837416.100000
+Z21 !s107 C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/entrada_salida.v|
+Z22 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo|C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/entrada_salida.v|
+R9
+R10
+n@entrada
+!i10b 1
+!s100 2=la6D=OilEzjl>R`2[DD2
+!s85 0
+!s101 -O0
+vLED7seg
+IcnOQKzZ:73oMShFz8d==n3
+V=3zPiSgFN5hSG<Q^ClVoU0
+R1
+R2
+R3
+R4
+L0 48
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+n@l@e@d7seg
+!i10b 1
+!s100 iXCUQUoJ1ToWRK@NP?WA12
+!s85 0
+!s101 -O0
+vmemprog
+!i10b 1
+!s100 9d`chEzz4VRZc]Y182oV41
+ICWAVJhQznkl:d_B_AKHCz2
+VU^4PS^ILhXJSDi0J3ezGm1
+R1
+w1463747175
+8C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/memprog.v
+FC:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/memprog.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1463837419.492000
+!s107 C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/memprog.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo|C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/memprog.v|
+!s101 -O0
+R9
+R10
+vmicroc
+IO^YF>2KFFH7LD[3EZ==a>0
+Ve@<C1D<D>FIZ4`AE1`MI<0
+R1
+w1463692611
+8C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/microc.v
+FC:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/microc.v
+L0 3
+R5
+r1
+31
+R9
+R10
+!i10b 1
+!s100 U>@YJW77f2Zi8;7?XJMEB3
+!s85 0
+!s108 1463837415.868000
+!s107 C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/microc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo|C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/microc.v|
+!s101 -O0
+vmux2
+IB[1XgNaQgS`;37YEQ;L2k3
+VT8RWJBjAIeM]>7U=5kBkT1
+R1
+R11
+R12
+R13
+L0 51
+R5
+r1
+31
+R14
+R15
+R16
+R9
+R10
+!i10b 1
+!s100 C[F8L3W3MDMaDKJPRP5oQ3
+!s85 0
+!s101 -O0
+vmux4
+INa[kS<d7JS>37:?Ig1S<42
+V@m74j;^3XFJ7>OzQXh6V`0
+R1
+R11
+R12
+R13
+L0 116
+R5
+r1
+31
+R14
+R15
+R16
+R9
+R10
+!i10b 1
+!s100 >zXeKk>zIcllJ6UL:Dn0S2
+!s85 0
+!s101 -O0
+vregfile
+I7>aRVJQHmYI=[LM73P=F40
+VI5z8<lJcjz;XN9<;Nm>UO3
+R1
+R11
+R12
+R13
+L0 4
+R5
+r1
+31
+R14
+R15
+R16
+R9
+R10
+!i10b 1
+!s100 JV@MGQKL60KlH:Y8AE71Y1
+!s85 0
+!s101 -O0
+vregistro
+I9d6^NG8[KVg8Y8;=M=Nh50
+VJ[_h7<:bK^i^`WUS`Li1<1
+R1
+R11
+R12
+R13
+L0 39
+R5
+r1
+31
+R14
+R15
+R16
+R9
+R10
+!i10b 1
+!s100 0^Q?I:P3P``FNA]AbkKG00
+!s85 0
+!s101 -O0
+vregistro2
+IMc?996AWg]nAkn<b8NVI?1
+VGbn99W5;3XPka87IGNYfk1
+R1
+R11
+R12
+R13
+L0 135
+R5
+r1
+31
+R14
+R15
+R16
+R9
+R10
+!i10b 1
+!s100 odFYCkGf4:dmVgkLa6kcN3
+!s85 0
+!s101 -O0
+vregistro3
+Ib0I>lc==bGZ>bV;i8SfQ`2
+Vl8F]TlOCAHz]i]=;oKO7Q1
+R1
+R11
+R12
+R13
+L0 146
+R5
+r1
+31
+R14
+R15
+R16
+R9
+R10
+!i10b 1
+!s100 ==1>>5^6m>LDFBfgA906Y3
+!s85 0
+!s101 -O0
+vSalida
+IhUEFi>A`:IemlPF_a1zbz3
+VBHKK:P<MkHeBeTCjl`4nW0
+R1
+R17
+R18
+R19
+L0 13
+R5
+r1
+31
+R20
+R21
+R22
+R9
+R10
+n@salida
+!i10b 1
+!s100 A7[GfbH6dbi7;D;VYM=2U3
+!s85 0
+!s101 -O0
+vsum
+ISlFOaD4SQceXeZO;HU3f@0
+VA7?gbGQM2IRzcJYa:4lZf2
+R1
+R11
+R12
+R13
+L0 29
+R5
+r1
+31
+R14
+R15
+R16
+R9
+R10
+!i10b 1
+!s100 eVDQAf;JG>zMf7B_Oj_K>1
+!s85 0
+!s101 -O0
+vsumrest
+I9=zQ;^dUD:?YQFQ7bmfEM2
+VB0i>b4OK=S?<<f<O`VRTj1
+R1
+R11
+R12
+R13
+L0 159
+R5
+r1
+31
+R14
+R15
+R16
+R9
+R10
+!i10b 1
+!s100 IJh`7`CFHif?C1@OCbGEW1
+!s85 0
+!s101 -O0
+vtiempos
+ICPh<dGBPSfn284Rf6L]YA1
+VHi_ILYjHVY=J93^1B6CH42
+R1
+w1463835566
+8C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/tiempos.v
+FC:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/tiempos.v
+L0 1
+R5
+r1
+31
+R9
+R10
+!i10b 1
+!s100 9R2kX1MlbCmfiAHDQ;[0Y3
+!s85 0
+!s108 1463837415.627000
+!s107 C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/tiempos.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo|C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/tiempos.v|
+!s101 -O0
+vuc
+IO@2`^;WQa4Q5n=D;NN83D0
+V3:>D4:AH`LSY[`8g>CJzE3
+R1
+w1461744203
+8C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/uc.v
+FC:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/uc.v
+L0 3
+R5
+r1
+31
+R9
+R10
+!i10b 1
+!s100 V_7Ed[e>8O7?>J@lE[;^?2
+!s85 0
+!s108 1463837415.427000
+!s107 C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/uc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo|C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/uc.v|
+!s101 -O0

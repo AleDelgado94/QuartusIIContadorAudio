@@ -1,0 +1,237 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'sonido1|altpll_component|pll|clk[1]'
+Slack : -261.077
+TNS   : -3779.526
+
+Type  : Slow Model Setup 'clk'
+Slack : -12.913
+TNS   : -2162.290
+
+Type  : Slow Model Setup 'microc:microc0|registro:PC|q[0]'
+Slack : -12.199
+TNS   : -12.199
+
+Type  : Slow Model Setup 'I2C_AV_Config:sonido2|mI2C_CTRL_CLK'
+Slack : -3.024
+TNS   : -84.258
+
+Type  : Slow Model Setup 'adio_codec:sonido3|LRCK_1X'
+Slack : -1.600
+TNS   : -12.800
+
+Type  : Slow Model Setup 'adio_codec:sonido3|oAUD_BCK'
+Slack : -0.275
+TNS   : -0.497
+
+Type  : Slow Model Hold 'clk'
+Slack : -2.687
+TNS   : -8.694
+
+Type  : Slow Model Hold 'sonido1|altpll_component|pll|clk[1]'
+Slack : 0.101
+TNS   : 0.000
+
+Type  : Slow Model Hold 'I2C_AV_Config:sonido2|mI2C_CTRL_CLK'
+Slack : 0.445
+TNS   : 0.000
+
+Type  : Slow Model Hold 'adio_codec:sonido3|oAUD_BCK'
+Slack : 0.445
+TNS   : 0.000
+
+Type  : Slow Model Hold 'adio_codec:sonido3|LRCK_1X'
+Slack : 0.976
+TNS   : 0.000
+
+Type  : Slow Model Hold 'microc:microc0|registro:PC|q[0]'
+Slack : 0.977
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'sonido1|altpll_component|pll|clk[1]'
+Slack : -6.106
+TNS   : -90.110
+
+Type  : Slow Model Recovery 'clk'
+Slack : -1.829
+TNS   : -31.063
+
+Type  : Slow Model Recovery 'I2C_AV_Config:sonido2|mI2C_CTRL_CLK'
+Slack : -0.693
+TNS   : -7.419
+
+Type  : Slow Model Recovery 'adio_codec:sonido3|oAUD_BCK'
+Slack : -0.671
+TNS   : -2.684
+
+Type  : Slow Model Recovery 'adio_codec:sonido3|LRCK_1X'
+Slack : -0.183
+TNS   : -1.464
+
+Type  : Slow Model Removal 'I2C_AV_Config:sonido2|mI2C_CTRL_CLK'
+Slack : 0.833
+TNS   : 0.000
+
+Type  : Slow Model Removal 'adio_codec:sonido3|LRCK_1X'
+Slack : 0.935
+TNS   : 0.000
+
+Type  : Slow Model Removal 'adio_codec:sonido3|oAUD_BCK'
+Slack : 1.423
+TNS   : 0.000
+
+Type  : Slow Model Removal 'clk'
+Slack : 2.551
+TNS   : 0.000
+
+Type  : Slow Model Removal 'sonido1|altpll_component|pll|clk[1]'
+Slack : 5.715
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'clk'
+Slack : -1.631
+TNS   : -274.137
+
+Type  : Slow Model Minimum Pulse Width 'I2C_AV_Config:sonido2|mI2C_CTRL_CLK'
+Slack : -0.611
+TNS   : -48.880
+
+Type  : Slow Model Minimum Pulse Width 'adio_codec:sonido3|LRCK_1X'
+Slack : -0.611
+TNS   : -9.776
+
+Type  : Slow Model Minimum Pulse Width 'adio_codec:sonido3|oAUD_BCK'
+Slack : -0.611
+TNS   : -4.888
+
+Type  : Slow Model Minimum Pulse Width 'microc:microc0|registro:PC|q[0]'
+Slack : 0.308
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'CLOCK_27'
+Slack : 18.518
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'sonido1|altpll_component|pll|clk[1]'
+Slack : 26.666
+TNS   : 0.000
+
+Type  : Fast Model Setup 'sonido1|altpll_component|pll|clk[1]'
+Slack : -105.345
+TNS   : -1520.288
+
+Type  : Fast Model Setup 'microc:microc0|registro:PC|q[0]'
+Slack : -4.463
+TNS   : -4.463
+
+Type  : Fast Model Setup 'clk'
+Slack : -3.759
+TNS   : -599.128
+
+Type  : Fast Model Setup 'I2C_AV_Config:sonido2|mI2C_CTRL_CLK'
+Slack : -0.485
+TNS   : -11.070
+
+Type  : Fast Model Setup 'adio_codec:sonido3|LRCK_1X'
+Slack : -0.070
+TNS   : -0.560
+
+Type  : Fast Model Setup 'adio_codec:sonido3|oAUD_BCK'
+Slack : 0.503
+TNS   : 0.000
+
+Type  : Fast Model Hold 'clk'
+Slack : -1.717
+TNS   : -34.231
+
+Type  : Fast Model Hold 'I2C_AV_Config:sonido2|mI2C_CTRL_CLK'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'adio_codec:sonido3|oAUD_BCK'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'sonido1|altpll_component|pll|clk[1]'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'adio_codec:sonido3|LRCK_1X'
+Slack : 0.360
+TNS   : 0.000
+
+Type  : Fast Model Hold 'microc:microc0|registro:PC|q[0]'
+Slack : 0.366
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'sonido1|altpll_component|pll|clk[1]'
+Slack : -3.608
+TNS   : -53.170
+
+Type  : Fast Model Recovery 'clk'
+Slack : -0.297
+TNS   : -4.985
+
+Type  : Fast Model Recovery 'adio_codec:sonido3|oAUD_BCK'
+Slack : -0.219
+TNS   : -0.876
+
+Type  : Fast Model Recovery 'adio_codec:sonido3|LRCK_1X'
+Slack : -0.010
+TNS   : -0.080
+
+Type  : Fast Model Recovery 'I2C_AV_Config:sonido2|mI2C_CTRL_CLK'
+Slack : 0.089
+TNS   : 0.000
+
+Type  : Fast Model Removal 'I2C_AV_Config:sonido2|mI2C_CTRL_CLK'
+Slack : 0.552
+TNS   : 0.000
+
+Type  : Fast Model Removal 'adio_codec:sonido3|LRCK_1X'
+Slack : 0.890
+TNS   : 0.000
+
+Type  : Fast Model Removal 'adio_codec:sonido3|oAUD_BCK'
+Slack : 1.099
+TNS   : 0.000
+
+Type  : Fast Model Removal 'clk'
+Slack : 1.173
+TNS   : 0.000
+
+Type  : Fast Model Removal 'sonido1|altpll_component|pll|clk[1]'
+Slack : 3.398
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'clk'
+Slack : -1.380
+TNS   : -224.380
+
+Type  : Fast Model Minimum Pulse Width 'I2C_AV_Config:sonido2|mI2C_CTRL_CLK'
+Slack : -0.500
+TNS   : -40.000
+
+Type  : Fast Model Minimum Pulse Width 'adio_codec:sonido3|LRCK_1X'
+Slack : -0.500
+TNS   : -8.000
+
+Type  : Fast Model Minimum Pulse Width 'adio_codec:sonido3|oAUD_BCK'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Fast Model Minimum Pulse Width 'microc:microc0|registro:PC|q[0]'
+Slack : 0.439
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'CLOCK_27'
+Slack : 18.518
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'sonido1|altpll_component|pll|clk[1]'
+Slack : 26.777
+TNS   : 0.000
+
+------------------------------------------------------------

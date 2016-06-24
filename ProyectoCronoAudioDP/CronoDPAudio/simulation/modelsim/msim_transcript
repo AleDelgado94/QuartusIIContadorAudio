@@ -1,0 +1,312 @@
+# Reading C:/altera/12.1sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do CronoAudioDP_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Ale\ Delgado/Desktop/CronoDPAudio/Codigo {C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/uc.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module uc
+# 
+# Top level modules:
+# 	uc
+# vlog -vlog01compat -work work +incdir+C:/Users/Ale\ Delgado/Desktop/CronoDPAudio/Codigo {C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/tiempos.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module tiempos
+# 
+# Top level modules:
+# 	tiempos
+# vlog -vlog01compat -work work +incdir+C:/Users/Ale\ Delgado/Desktop/CronoDPAudio/Codigo {C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/microc.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module microc
+# 
+# Top level modules:
+# 	microc
+# vlog -vlog01compat -work work +incdir+C:/Users/Ale\ Delgado/Desktop/CronoDPAudio/Codigo {C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/entrada_salida.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module Entrada
+# -- Compiling module Salida
+# 
+# Top level modules:
+# 	Entrada
+# 	Salida
+# vlog -vlog01compat -work work +incdir+C:/Users/Ale\ Delgado/Desktop/CronoDPAudio/Codigo {C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/cpu.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module cpu
+# 
+# Top level modules:
+# 	cpu
+# vlog -vlog01compat -work work +incdir+C:/Users/Ale\ Delgado/Desktop/CronoDPAudio/Codigo {C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/componentes.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module regfile
+# -- Compiling module sum
+# -- Compiling module registro
+# -- Compiling module mux2
+# -- Compiling module deco2a4
+# -- Compiling module mux4
+# -- Compiling module registro2
+# -- Compiling module registro3
+# -- Compiling module sumrest
+# 
+# Top level modules:
+# 	regfile
+# 	sum
+# 	registro
+# 	mux2
+# 	deco2a4
+# 	mux4
+# 	registro2
+# 	registro3
+# 	sumrest
+# vlog -vlog01compat -work work +incdir+C:/Users/Ale\ Delgado/Desktop/CronoDPAudio/Codigo {C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/alu.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# vlog -vlog01compat -work work +incdir+C:/Users/Ale\ Delgado/Desktop/CronoDPAudio/Codigo {C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/7segmentos.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module add3
+# -- Compiling module BinaryToBCD
+# -- Compiling module LED7seg
+# -- Compiling module BCDto7seg
+# -- Compiling module BinaryTo7seg
+# 
+# Top level modules:
+# 	BinaryTo7seg
+# vlog -vlog01compat -work work +incdir+C:/Users/Ale\ Delgado/Desktop/CronoDPAudio/Codigo {C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/memprog.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module memprog
+# 
+# Top level modules:
+# 	memprog
+# 
+vsim work.cpu
+# vsim work.cpu 
+# Loading work.cpu
+# Loading work.uc
+# Loading work.microc
+# Loading work.registro
+# Loading work.mux2
+# Loading work.sum
+# Loading work.alu
+# Loading work.regfile
+# Loading work.memprog
+# Loading work.Entrada
+# Loading work.mux4
+# Loading work.Salida
+# Loading work.deco2a4
+# Loading work.registro2
+# Loading work.registro3
+# Loading work.sumrest
+# Loading work.BinaryTo7seg
+# Loading work.BinaryToBCD
+# Loading work.add3
+# Loading work.BCDto7seg
+# Loading work.LED7seg
+# Loading work.tiempos
+# ** Warning: (vsim-3015) C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/7segmentos.v(83): [PCDPC] - Port size (4 or 4) does not match connection size (2) for port 'num'. The port definition is at: C:/Users/Ale Delgado/Desktop/CronoDPAudio/Codigo/7segmentos.v(48).
+# 
+#         Region: /cpu/binto7seg/bcdTo7seg/led1
+add wave -position insertpoint  \
+sim:/cpu/clk \
+sim:/cpu/reset \
+sim:/cpu/inCPU2 \
+sim:/cpu/inCPU3 \
+sim:/cpu/inCPU4 \
+sim:/cpu/outCPU1 \
+sim:/cpu/in2negada \
+sim:/cpu/in3negada \
+sim:/cpu/in4negada \
+sim:/cpu/clk_sec \
+sim:/cpu/s_enable
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Ale Delgado  Hostname: ALEDELGADO  ProcessID: 228
+# 
+#           Attempting to use alternate WLF file "./wlft6qwsyq".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft6qwsyq
+# 
+add wave -position insertpoint  \
+sim:/cpu/microc0/salPC
+force -freeze sim:/cpu/clk 1 0, 0 {10 ps} -r 20
+force -freeze sim:/cpu/reset 1 0
+force -freeze sim:/cpu/reset 0 5
+force -freeze sim:/cpu/inCPU2 00000001 0
+force -freeze sim:/cpu/inCPU3 0 0
+force -freeze sim:/cpu/inCPU4 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/cpu/inCPU2 00000000 0
+run
+run
+force -freeze sim:/cpu/inCPU2 00000001 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/cpu/inCPU2 00000000 0
+run
+run
+run
+run
+force -freeze sim:/cpu/inCPU3 00000001 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Break key hit 
+# Simulation stop requested.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run -continue
+run -all
